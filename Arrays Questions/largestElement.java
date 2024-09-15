@@ -42,7 +42,7 @@ if(arr[i][j]>max)
 
 }
 
-System.out.println("The largest number is  "+ max);
+System.out.println("The largest number in the array is  "+ max);
 
     }
 }
