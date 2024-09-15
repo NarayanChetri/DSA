@@ -1,6 +1,6 @@
-/**
- * largestElement
- */
+
+// largestElement in an Array
+
 import java.util.Scanner;
 import java.util.function.Function;
 public class largestElement {
