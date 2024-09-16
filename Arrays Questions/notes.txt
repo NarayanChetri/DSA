@@ -1,0 +1,53 @@
+Java provides several methods to work with arrays. Here are some commonly used ones:
+
+1. **`Arrays.toString()`**  
+   Converts an array to a string format.
+   ```java
+   int[] arr = {10, 20, 30};
+   System.out.println(Arrays.toString(arr));
+   ```
+
+2. **`Arrays.sort()`**  
+   Sorts an array in ascending order.
+   ```java
+   int[] arr = {30, 10, 20};
+   Arrays.sort(arr);
+   ```
+
+3. **`Arrays.equals()`**  
+   Compares two arrays to check if they are equal.
+   ```java
+   int[] arr1 = {10, 20, 30};
+   int[] arr2 = {10, 20, 30};
+   boolean result = Arrays.equals(arr1, arr2);
+   ```
+
+4. **`Arrays.fill()`**  
+   Fills an array with a specified value.
+   ```java
+   int[] arr = new int[5];
+   Arrays.fill(arr, 1); // Fills array with 1s
+   ```
+
+5. **`Arrays.copyOf()`**  
+   Copies an array to a new array with a specified length.
+   ```java
+   int[] arr = {10, 20, 30};
+   int[] newArr = Arrays.copyOf(arr, 5); // New array with size 5
+   ```
+
+6. **`Arrays.binarySearch()`**  
+   Performs a binary search on a sorted array.
+   ```java
+   int[] arr = {10, 20, 30};
+   int index = Arrays.binarySearch(arr, 20); // Returns index of 20
+   ```
+
+7. **`Arrays.asList()`**  
+   Converts an array to a list.
+   ```java
+   String[] arr = {"apple", "banana"};
+   List<String> list = Arrays.asList(arr);
+   ```
+
+These methods are part of the `java.util.Arrays` class, which provides various utilities for working with arrays.
