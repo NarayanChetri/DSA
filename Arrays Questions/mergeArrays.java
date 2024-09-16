@@ -1,7 +1,7 @@
 // Adding two arrays in one
 import java.util.*;
 //////////////////////using loop///////////////////////////////
-public class addArray {
+public class mergeArrays {
     public static void main(String[] args) {
         
 int arr1[]={1,2,3};
