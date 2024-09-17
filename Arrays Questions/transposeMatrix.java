@@ -27,9 +27,9 @@ for(int i =0;i<rows;i++)
 int arr2[][]= new int[columns][rows]; // dimension should be swapped
 
 
-for(int i =0;i<rows;i++)
+for(int i =0;i<columns;i++)
 {
-    for(int j=0;j<columns;j++)
+    for(int j=0;j<rows;j++)
     {
         arr2[i][j]=arr1[j][i];
     }
@@ -38,7 +38,7 @@ System.out.println("The transpose of the given matrix is :");
 for(int i =0;i<rows;i++)
 {
     for(int j=0;j<columns;j++)
-    {
+    {  
         System.out.print(" " + arr2[i][j]);
     }
     System.out.println();
