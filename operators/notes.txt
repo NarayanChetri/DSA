@@ -1,0 +1,59 @@
+Here are the different types of operators in Java:
+
+1. **Arithmetic Operators**: Perform basic arithmetic operations.
+   - `+` (Addition)
+   - `-` (Subtraction)
+   - `*` (Multiplication)
+   - `/` (Division)
+   - `%` (Modulus)
+
+2. **Relational (Comparison) Operators**: Compare two values.
+   - `==` (Equal to)
+   - `!=` (Not equal to)
+   - `>` (Greater than)
+   - `<` (Less than)
+   - `>=` (Greater than or equal to)
+   - `<=` (Less than or equal to)
+
+3. **Logical Operators**: Used to perform logical operations.
+   - `&&` (Logical AND)
+   - `||` (Logical OR)
+   - `!` (Logical NOT)
+
+4. **Bitwise Operators**: Perform bit-level operations.
+   - `&` (Bitwise AND)
+   - `|` (Bitwise OR)
+   - `^` (Bitwise XOR)
+   - `~` (Bitwise NOT)
+   - `<<` (Left shift)
+   - `>>` (Right shift)
+   - `>>>` (Unsigned right shift)
+
+5. **Assignment Operators**: Assign values to variables.
+   - `=` (Assign)
+   - `+=` (Add and assign)
+   - `-=` (Subtract and assign)
+   - `*=` (Multiply and assign)
+   - `/=` (Divide and assign)
+   - `%=` (Modulus and assign)
+
+6. **Unary Operators**: Operate on a single operand.
+   - `+` (Unary plus)
+   - `-` (Unary minus)
+   - `++` (Increment)
+   - `--` (Decrement)
+   - `!` (Logical NOT)
+
+7. **Ternary Operator**: Short form of if-else statement.
+   - `?:` (Condition ? value1 : value2)
+
+8. **Instanceof Operator**: Checks if an object is an instance of a class.
+   - `instanceof`
+
+9. **Type Casting Operators**: Convert data from one type to another.
+   - `(datatype)` (Type cast) e.g., `(int)`, `(double)`
+
+10. **Shift Operators**: Shift bits left or right.
+    - `<<` (Left shift)
+    - `>>` (Right shift)
+    - `>>>` (Unsigned right shift)

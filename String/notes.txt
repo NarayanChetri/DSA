@@ -1,0 +1,13 @@
+what is string builder in string ??
+
+Mutable: StringBuilder allows modification of character sequences after creation.
+
+Efficient: More efficient than String for frequent string manipulations (like concatenation) since it doesn't create new objects on every change.
+
+Common Methods:
+append(): Adds text to the end.
+insert(): Inserts text at a specified index.
+reverse(): Reverses the sequence of characters.
+delete(): Removes characters from the sequence.
+
+No New Objects: Unlike String, StringBuilder modifies the same object in memory, reducing overhead.

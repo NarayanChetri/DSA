@@ -1,0 +1,21 @@
+The **ternary operator** in Java provides a concise way to perform an `if-else` statement. It evaluates a condition and returns one of two values based on the result.
+
+### Syntax:
+```java
+condition ? expression1 : expression2;
+```
+
+- **condition**: A boolean expression that is either `true` or `false`.
+- **expression1**: Value returned if the condition is `true`.
+- **expression2**: Value returned if the condition is `false`.
+
+### Example:
+```java
+int num = 15;
+String result = (num % 2 == 0) ? "Even" : "Odd";  // Checks if num is even or odd
+System.out.println("The number is: " + result);
+```
+
+In this example:
+- If `num % 2 == 0` is `true`, "Even" is assigned to `result`.
+- If `num % 2 == 0` is `false`, "Odd" is assigned to `result`.
